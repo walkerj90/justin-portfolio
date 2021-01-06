@@ -5,11 +5,14 @@
 <head>
     <link href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Contact & Social</title>
+
 </head>
 
 <body>
@@ -43,9 +46,81 @@
 
         </div>
     </div>
-    </div>
-    </div>
-    </div>
+
+    <div class="container" style="padding-block: 2%;">
+        <form>
+            <h2>Contact Me</h2>
+            <div class="row" style="padding-block: 1%;">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="first">First Name</label>
+                        <input type="text" class="form-control" placeholder="First" id="first">
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="last">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last" id="last">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="company">Company or Organization</label>
+                        <input type="text" class="form-control" placeholder="" id="company">
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="xxx-xxx-xxxx">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="form-group" style="padding-bottom: 3%;">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="@">
+                    </div>
+                </div>
+
+                <div class="text-center text-md-left" style="padding-top: 2.75%;">
+                    <button class="btn btn-primary" onclick="sendContact();">Submit
+                </div>
+                <form onsubmit="return false">
+                </form>
+            </div>
+            <!-- Twitter -->
+            <div class=" container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="https://twitter.com/AfterDarkJustin" target="_blank"> <button type="button"
+                                class="btn btn-primary btn-md" style="font-size: 22px; color: #F5F8FA ;">
+                                <i class="fa fa-twitter left"></i> Twitter</button></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="https://github.com/walkerj90" target="_blank"> <button type="button"
+                                class="btn btn-primary btn-md"
+                                style="font-size: 22px; color: #fafafa ;background-color:#333 ;">
+                                <i class="fa fa-github right"></i> github</button></a>
+                    </div>
+                </div>
+            </div>
 
 </body>
 

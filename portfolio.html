@@ -5,6 +5,8 @@
 <head>
     <link href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -18,12 +20,12 @@
         <a class="navbar-brand" href="index.html">Justin Walker</a>
 
         <!-- Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="col-sm-6lapse" data-target="#col-sm-6lapsibleNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!--Navbar Links-->
-        <div class="col-sm-6lapse navbar-col-sm-6lapse" id="col-sm-6lapsibleNavbar">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -34,43 +36,47 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid" src="IMAGES/coyote.jpg">
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Coyote in death valley" src="IMAGES/coyote.jpg">
             </div>
-            <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid" src="IMAGES/deer.jpg">
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Deer in olympic national park" src="IMAGES/deer.jpg">
             </div>
+        </div>
+    </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid" src="IMAGES/bigRock.jpg">
-                    </div>
-                    <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid"
-                            src="IMAGES/balloonicorn.jpg">
-                    </div>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Oregons Haystack Rock" src="IMAGES/bigRock.jpg">
+            </div>
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Pride Parade Attendees in Seattle" src="IMAGES/balloonicorn.jpg">
+            </div>
+        </div>
+    </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid"
-                                src="IMAGES/squirrel-uk.jpg">
-                        </div>
-                        <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid"
-                                src="IMAGES/chapel-uk.jpg">
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Squirell in a Park" src="IMAGES/squirrel-uk.jpg">
+            </div>
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="Westminster Abbey Church" src="IMAGES/chapel-uk.jpg">
+            </div>
+        </div>
+    </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid"
-                                src="IMAGES/india-wall.jpg">
-                        </div>
-                        <div class="col-sm-6" style="padding-block: 5%;"><img class="img-fluid"
-                                src="IMAGES/india-tower.jpg">
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class=" img-fluid" alt="wall of old keep in india" src="IMAGES/india-wall.jpg">
+            </div>
+            <div class="col-sm-6" style="padding-block: 5%;">
+                <img class="img-fluid" alt="tower of old keep in india" src="IMAGES/india-tower.jpg">
+            </div>
 </body>
 
 </html>
