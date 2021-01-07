@@ -1,11 +1,23 @@
-h1 {
+.h1, .h2 {
     font-size: 50px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
 
+body {
+  background-image: linear-gradient(to top, #181818 0%, #181818 75%, #181818 100%);
+  min-height: 100vh;
+  font: normal 16px sans-serif;
+}
+
+
+
 p {
   font-family: 'Roboto Mono', monospace;
+  padding-left: 1%;
+  font-weight: 560;
+  color: #39116D;
+  text-shadow: 1px 1px #F5B34E;
 }
 
   .container-fluid {
@@ -28,14 +40,30 @@ p {
 }
 
 .fa {
-  padding: 100px;
-  font-size: 150px;
-  width: 250px;
+  padding: 10px;
+  font-size: 15px;
   text-align: center;
   text-decoration: none;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.jumbotron {
+  max-width: 1400px;
+  max-height: 1200px;
+  margin: auto;
+}
+
+h1, h2 {
+  padding-left: 1%;
+}
+
+h3 {
+  color: whitesmoke;
+}
+
+.col-sm-2 {
+  padding: 1%;
+}
+
+.col-md-6 {
+  color: aliceblue;
 }
