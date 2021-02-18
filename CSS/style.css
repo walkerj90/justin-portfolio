@@ -93,3 +93,11 @@ h3 {
   max-height: 1200px;
   margin: auto;
 }
+
+.preset-file {
+  cursor: pointer;
+}
+
+.gif-file {
+  display:none;
+}
