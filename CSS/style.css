@@ -94,10 +94,9 @@ h3 {
   margin: auto;
 }
 
-.preset-file {
+#projectImages img {
   cursor: pointer;
 }
-
-.gif-file {
+#projectImages .gif-file {
   display:none;
 }

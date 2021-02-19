@@ -2,7 +2,6 @@
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="CSS/style.css">
-<script>src=script.js</script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;600&display=swap" rel="stylesheet">
@@ -10,8 +9,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src=script.js></script>
 <title>Past Projects</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
@@ -37,26 +38,34 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid" id ="projectImages">
+    <div class="container-fluid" id="projectImages">
         <div class="row">
             <div class="col-sm-6" style="padding: 10px;">
-                <img class="img-fluid" alt="" src="">
-            </div>
+                <a href="https://walkerj90.github.io/weather-dashboard/" target="_blank"> <img class="img-fluid" alt=""
+                        src="IMAGES\weather.png" onmouseenter=src='IMAGES/weathergif.gif' ;
+                        onmouseout=src='IMAGES/weather.png' ;>
+            </div></a>
             <div class="col-sm-6" style="padding: 10px;">
-                <img class="img-fluid" alt="" src="">
-            </div>
+                <a href="https://walkerj90.github.io/Coding-Quiz/" target="_blank">
+                    <img class="img-fluid" alt="" src="IMAGES\quiz.png" onmouseenter=src='IMAGES/quizgif.gif' ;
+                        onmouseout=src='IMAGES/quiz.png' ;>
+            </div></a>
         </div>
     </div>
-    <div class="container-fluid" id ="projectImages">
+    <div class="container-fluid" id="projectImages">
         <div class="row">
             <div class="col-sm-6" style="padding: 10px;">
-                <img class="img-fluid" alt="" src="">
-            </div>
+                <a href="https://connerjm.github.io/Your-Day-in-Brief/" target="_blank">
+                    <img class="img-fluid" alt="" src="IMAGES\dayinbrief.png"
+                        onmouseenter=src='IMAGES/dayinbriefgif.gif' ; onmouseout=src='IMAGES/dayinbrief.png' ;>
+            </div></a>
             <div class="col-sm-6" style="padding: 10px;">
-                <img class="img-fluid" alt="" src="IMAGES\passwordgenimage.png" onmouseenter='this.src=IMAGES/passwordgengif.gif'; onmouseout='this.src=IMAGES/passwordgenimage.png';>
-            </div>
+                <a href="https://walkerj90.github.io/password-generator/" target="_blank">
+                    <img class="img-fluid" alt="" src="IMAGES\passwordgenimage.png"
+                        onmouseenter=src='IMAGES/passwordgengif.gif' ; onmouseout=src='IMAGES/passwordgenimage.png' ;>
+            </div></a>
         </div>
     </div>
 </body>
-</html>
 
+</html>
